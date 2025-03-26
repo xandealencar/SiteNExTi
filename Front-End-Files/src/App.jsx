@@ -1,7 +1,13 @@
 import { useState } from "react";
-
+import Sobre from "./components/Sobre";
+import Principal from "./components/Principal";
 function App() {
-  return <h1 className="text-red-500">Site NExTi</h1>;
+  return (
+    <div className="flex flex-col gap-10">
+      <Principal />
+      <Sobre />
+    </div>
+  );
 }
 
 export default App;
