@@ -34,9 +34,9 @@ function Sobre() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center w-full max-w-4xl pt-8">
+      <div className="flex flex-col justify-center w-full max-w-4xl pt-8 gap-6">
         <h2 className="text-blue-800 font-bold">Valores do NEXTI:</h2>
-        <ul className="list-disc pl-5">
+        <ul className="list-disc pl-5 space-y-4">
           <li>
             <h3 className="text-gray-700 font-bold">Aprendizado contínuo:</h3>
             <p className="text-gray-700">
