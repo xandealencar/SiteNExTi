@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Linkedin, Youtube, Facebook, Instagram, Menu } from "lucide-react";
+import { motion } from "framer-motion"; // Importando framer-motion
 
 function Principal() {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -40,15 +41,20 @@ function Principal() {
       </div>
 
       {menuAberto && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-end">
-          <div className="w-64 bg-white bg-opacity-0 backdrop-blur-md h-full shadow-lg p-5 flex flex-col gap-4">
+        <motion.div
+          className="fixed inset-0 flex justify-end"
+          initial={{ opacity: 0, x: "100%" }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: "100%" }}
+          transition={{ duration: 0.3 }}
+        >
+          <div className="w-64 h-full bg-white bg-opacity-0 shadow-lg pt-20 pb-5 pl-5 pr-5 flex flex-col items-end gap-4">
             <button
-              className="self-end text-blue-900 text-2xl"
+              className="text-white text-2xl w-10 h-10 flex items-center justify-center"
               onClick={() => setMenuAberto(false)}
-            >
-              X
-            </button>
-            <button className="text-xs font-bold text-blue-900 bg-gray-200 rounded-full w-16 h-10 flex justify-center items-center">
+            ></button>
+
+            <button className="text-blue-900 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center text-sm font-bold">
               Portal
             </button>
             <button className="text-blue-900 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center">
@@ -64,7 +70,7 @@ function Principal() {
               <Instagram />
             </button>
           </div>
-        </div>
+        </motion.div>
       )}
 
       <div className="w-[500px] flex flex-col gap-2">

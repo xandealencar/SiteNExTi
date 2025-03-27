@@ -5,13 +5,14 @@ function Sobre() {
         Sobre
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-4xl">
-        <div className="rounded-md bg-blue-900 text-white flex flex-col md:flex-row items-center justify-center gap-5 w-full">
+        <div className="rounded-md bg-blue-900 text-white flex flex-col md:flex-row items-stretch justify-center gap-5 w-full h-full">
           <img
             src="https://img.freepik.com/fotos-gratis/fundo-abstrato-gradiente-azul-azul-escuro-liso-com-vinheta-preta-studio_1258-67810.jpg?semt=ais_hybrid"
             alt="imagem-sobre"
-            className="w-full h-80 object-cover rounded-t-md md:rounded-l-md"
+            className="w-full md:w-1/2 h-full object-cover rounded-t-md md:rounded-l-md"
           />
-          <div className="p-8 flex flex-col gap-5 w-full">
+
+          <div className="p-8 flex flex-col gap-5 w-full md:w-1/2 h-full">
             <div className="text-left">
               <h3 className="text-yellow-400 font-bold">Missão:</h3>
               <p className="text-sm mt-2">
@@ -32,6 +33,58 @@ function Sobre() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex flex-col justify-center w-full max-w-4xl pt-8">
+        <h2 className="text-blue-900 font-bold">Valores do NEXTI:</h2>
+        <ul className="list-disc pl-5">
+          <li>
+            <h3 className="font-bold">Aprendizado contínuo:</h3>
+            <p>
+              Valorizamos a busca constante pelo conhecimento e incentivamos
+              nossos alunos a se manterem atualizados em um campo em constante
+              evolução.
+            </p>
+          </li>
+          <li>
+            <h3 className="font-bold">Inovação:</h3>
+            <p>
+              Encorajamos a criatividade e a busca por soluções inovadoras que
+              possam fazer a diferença na sociedade e na indústria de TI.
+            </p>
+          </li>
+          <li>
+            <h3 className="font-bold">Ética e Responsabilidade:</h3>
+            <p>
+              Promovemos a integridade, a ética e a responsabilidade em todas as
+              nossas ações, preparando nossos alunos para serem profissionais
+              éticos e conscientes.
+            </p>
+          </li>
+          <li>
+            <h3 className="font-bold">Trabalho em equipe:</h3>
+            <p>
+              Reconhecemos a importância do trabalho em equipe e da colaboração,
+              capacitando nossos alunos a serem membros eficazes de equipes
+              multidisciplinares.
+            </p>
+          </li>
+          <li>
+            <h3 className="font-bold">Empreendedorismo:</h3>
+            <p>
+              Incentivamos o empreendedorismo e a mentalidade empresarial,
+              capacitando nossos alunos a identificar oportunidades e criar
+              soluções de valor.
+            </p>
+          </li>
+          <li>
+            <h3 className="font-bold">Comunidade e Responsabilidade Social:</h3>
+            <p>
+              Contribuímos ativamente para a comunidade local, utilizando nossa
+              expertise para resolver problemas e melhorar a qualidade de vida
+              das pessoas.
+            </p>
+          </li>
+        </ul>
       </div>
     </div>
   );
