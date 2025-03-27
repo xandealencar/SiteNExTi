@@ -7,9 +7,9 @@ function Sobre() {
       <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-4xl">
         <div className="rounded-lg bg-blue-900 text-white flex flex-col md:flex-row items-center md:items-stretch justify-center gap-5 w-full">
           <img
-            src="https://i.ibb.co/pT7cKSb/estagio.png"
+            src="https://i.ibb.co/bRdK1n8D/image-estagio.png"
             alt="imagem-sobre"
-            className="w-full md:w-1/2 object-cover"
+            className="w-full md:w-1/2 object-cover rounded-lg"
           />
 
           <div className="p-6 flex flex-col gap-5 w-full md:w-1/2 h-full">
