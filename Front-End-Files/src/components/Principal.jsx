@@ -6,7 +6,7 @@ function Principal() {
   const [menuAberto, setMenuAberto] = useState(false);
 
   return (
-    <div className="bg-blue-900 h-[650px] flex flex-col items-center gap-36 pt-20">
+    <div className="bg-blue-800 h-[650px] flex flex-col items-center gap-36 pt-20">
       <div className="flex items-center justify-between w-full px-6 md:px-20">
         <img
           src="https://nexti.fapce.edu.br/img/logos/logo.png"
@@ -15,19 +15,19 @@ function Principal() {
         />
 
         <div className="hidden md:flex gap-2">
-          <button className="text-xs font-bold text-blue-900 bg-white rounded-full w-16 h-10 flex justify-center items-center">
+          <button className="text-xs font-bold text-blue-800 bg-white rounded-full w-16 h-10 flex justify-center items-center">
             Portal
           </button>
-          <button className="text-blue-900 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+          <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
             <Linkedin />
           </button>
-          <button className="text-blue-900 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+          <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
             <Youtube />
           </button>
-          <button className="text-blue-900 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+          <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
             <Facebook />
           </button>
-          <button className="text-blue-900 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+          <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
             <Instagram />
           </button>
         </div>
@@ -54,19 +54,19 @@ function Principal() {
               onClick={() => setMenuAberto(false)}
             ></button>
 
-            <button className="text-blue-900 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center text-sm font-bold">
+            <button className="text-blue-800 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center text-sm font-bold">
               Portal
             </button>
-            <button className="text-blue-900 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center">
+            <button className="text-blue-800 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center">
               <Linkedin />
             </button>
-            <button className="text-blue-900 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center">
+            <button className="text-blue-800 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center">
               <Youtube />
             </button>
-            <button className="text-blue-900 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center">
+            <button className="text-blue-800 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center">
               <Facebook />
             </button>
-            <button className="text-blue-900 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center">
+            <button className="text-blue-800 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center">
               <Instagram />
             </button>
           </div>
@@ -77,7 +77,7 @@ function Principal() {
         <h1 className="text-[40px] text-center font-bold text-white">
           Núcleo de Extensão em Tecnologia da Informação
         </h1>
-        <h2 className="text-[25px] text-yellow-400 text-center font-bold text-sm">
+        <h2 className="text-[25px] text-yellow-500 text-center font-bold text-sm">
           Transformando alunos em profissionais!
         </h2>
       </div>
