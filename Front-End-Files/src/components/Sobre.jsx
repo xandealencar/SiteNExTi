@@ -1,18 +1,18 @@
 function Sobre() {
   return (
     <div className="flex flex-col items-center justify-center px-4">
-      <h1 className="text-2xl text-blue-800 font-bold mb-4 text-center">
+      <h1 className="text-2xl text-blue-900 font-bold mb-4 text-center">
         Sobre
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-4xl">
-        <div className="rounded-md bg-blue-800 text-white flex flex-col md:flex-row items-stretch justify-center gap-5 w-full h-full">
+        <div className="rounded-lg bg-blue-900 text-white flex flex-col md:flex-row items-center md:items-stretch justify-center gap-5 w-full">
           <img
-            src="https://img.freepik.com/fotos-gratis/fundo-abstrato-gradiente-azul-azul-escuro-liso-com-vinheta-preta-studio_1258-67810.jpg?semt=ais_hybrid"
+            src="https://i.ibb.co/pT7cKSb/estagio.png"
             alt="imagem-sobre"
-            className="w-full md:w-1/2 h-full object-cover rounded-t-md md:rounded-l-md"
+            className="w-full md:w-1/2 object-cover"
           />
 
-          <div className="p-8 flex flex-col gap-5 w-full md:w-1/2 h-full">
+          <div className="p-6 flex flex-col gap-5 w-full md:w-1/2 h-full">
             <div className="text-left">
               <h3 className="text-yellow-500 font-bold">Missão:</h3>
               <p className="text-sm mt-2">
