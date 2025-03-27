@@ -48,7 +48,7 @@ function Principal() {
           exit={{ opacity: 0, x: "100%" }}
           transition={{ duration: 0.3 }}
         >
-          <div className="w-64 h-full bg-white bg-opacity-0 shadow-lg pt-20 pb-5 pl-5 pr-5 flex flex-col items-end gap-4">
+          <div className="w-64 h-full bg-white bg-opacity-0 pt-20 pb-5 pl-5 pr-5 flex flex-col items-end gap-4">
             <button
               className="text-white text-2xl w-10 h-10 flex items-center justify-center"
               onClick={() => setMenuAberto(false)}
