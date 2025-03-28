@@ -132,6 +132,19 @@ function Sobre() {
           />
         </div>
       </div>
+      <div className="text-center flex flex-col gap-5">
+        <h3 className="text-yellow-500 font-bold pt-5">Nossos Parceiros:</h3>
+        <div className="flex gap-10">
+          <img
+            src="https://nexti.fapce.edu.br/img/logos/sitio_barreiras_logo.png"
+            alt="sitio-barreiras-logo"
+          />
+          <img
+            src="https://nexti.fapce.edu.br/img/logos/brisanet.svg"
+            alt="brisanet-logo"
+          />
+        </div>
+      </div>
     </div>
   );
 }
