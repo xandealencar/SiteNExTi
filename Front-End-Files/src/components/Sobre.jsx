@@ -90,6 +90,48 @@ function Sobre() {
           </li>
         </ul>
       </div>
+      <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-4xl pt-8">
+        <div className="rounded-lg bg-blue-900 text-white flex flex-col md:flex-row items-center md:items-stretch justify-center gap-5 w-full">
+          <div className="p-6 flex flex-col gap-5 w-full md:w-1/2 h-full">
+            <div className="text-left">
+              <h3 className="text-yellow-500 font-bold">
+                Objetivos institucionais e acadêmicos
+              </h3>
+              <p className="text-sm mt-2">
+                Experiência Prática: Proporcionar aos alunos voluntários a
+                oportunidade de aplicar o conhecimento teórico em situações
+                práticas, desenvolvendo projetos de software, sistemas web,
+                aplicativos móveis e soluções de TI.
+              </p>
+              <p className="text-sm mt-2">
+                Integração com o Mercado: Estabelecer parcerias estratégicas com
+                empresas e organizações locais, permitindo que nossos alunos
+                trabalhem em projetos reais e conheçam as demandas do mercado.
+              </p>
+              <p className="text-sm mt-2">
+                Aprimoramento Profissional: Promover o desenvolvimento de hard
+                skills e soft skills, como trabalho em equipe, comunicação
+                eficaz e resolução de problemas.
+              </p>
+              <p className="text-sm mt-2">
+                Inovação e Pesquisa: Estimular a pesquisa e o desenvolvimento de
+                tecnologias inovadoras, contribuindo para o avanço da área de
+                tecnologia da informação.
+              </p>
+              <p className="text-sm mt-2">
+                Serviço à Comunidade: Utilizar nosso conhecimento e recursos
+                para oferecer soluções tecnológicas que beneficiem a comunidade
+                local.
+              </p>
+            </div>
+          </div>
+          <img
+            src="https://i.ibb.co/bRdK1n8D/image-estagio.png"
+            alt="imagem-sobre"
+            className="w-full md:w-1/2 object-cover rounded-lg"
+          />
+        </div>
+      </div>
     </div>
   );
 }
