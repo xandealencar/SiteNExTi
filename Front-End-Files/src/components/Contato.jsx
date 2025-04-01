@@ -42,6 +42,14 @@ function Contato() {
                                 alt="UniFAP Logo"
                                 className="h-12"
                             />
+
+                            <p className="text-white text-sm mt-4">
+                                © <span className="text-white">NExTI 2025 </span>
+                                <a href="https://nexti.unifap.edu.br" className="text-yellow-400 font-bold hover:underline">
+                                    - nexti.unifap.edu.br
+                                </a>
+                            </p>
+
                         </div>
                         <div className="flex-1">
                             <iframe
