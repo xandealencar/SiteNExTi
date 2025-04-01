@@ -28,7 +28,6 @@ function Edital() {
           </p>
         </div>
       </div>
-
       <div className="flex flex-col md:flex-row text-start justify-center gap-10">
         <p className="w-full md:w-96 md:mr-4 flex flex-col">
           No roda-pé do cartaz, aparecem o site para inscrição (fapce.edu.br), o
