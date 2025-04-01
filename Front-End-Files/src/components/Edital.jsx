@@ -10,9 +10,9 @@ function Edital() {
           alt="edital-img"
           className="w-96 h-96"
         />
-        <div className="w-96 h-96 md:ml-4 flex flex-col">
+        <div className="max-w-md w-full md:ml-4 flex flex-col">
           <p>
-            <span className="text-yellow-500">#PraCegoVer </span>Trata-se de um
+            <span className="text-yellow-500">#PraCegoVer </span>Trata-se de um
             cartaz que anuncia a seleção de estágio para o Núcleo de Extensão em
             Tecnologia da Informação (NExTI). É composto de uma foto em que
             aparecem três alunos sentados num parque. Duas alunas estão nas
@@ -28,6 +28,7 @@ function Edital() {
           </p>
         </div>
       </div>
+
       <div className="flex flex-col md:flex-row text-start justify-center gap-10">
         <p className="w-full md:w-96 md:mr-4 flex flex-col">
           No roda-pé do cartaz, aparecem o site para inscrição (fapce.edu.br), o
