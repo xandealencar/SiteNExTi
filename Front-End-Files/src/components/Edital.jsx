@@ -1,0 +1,58 @@
+function Edital() {
+  return (
+    <div className="flex flex-col items-center justify-center px-4 gap-10">
+      <h1 className="text-2xl text-blue-900 font-bold mb-4 text-center">
+        Edital
+      </h1>
+      <div className="flex flex-col md:flex-row items-center md:justify-center md:items-start gap-5">
+        <img
+          src="https://i.ibb.co/4ZWkH0GN/imagem-edital-nexti.png"
+          alt="edital-img"
+          className="w-96 h-96"
+        />
+        <div className="w-96 h-96 md:ml-4 flex flex-col">
+          <p>
+            <span className="text-yellow-500">#PraCegoVer </span>Trata-se de um
+            cartaz que anuncia a seleção de estágio para o Núcleo de Extensão em
+            Tecnologia da Informação (NExTI). É composto de uma foto em que
+            aparecem três alunos sentados num parque. Duas alunas estão nas
+            pontas e seguram livros, o aluno do meio tem um notebook no colo.
+          </p>
+          <p>
+            O recorte da foto não mostra o rosto dos estudantes. Mais embaixo,
+            do lado esquerdo, num retângulo, está a informação de que as
+            inscrições no NExTI vão de 6 a 20 de março, com 10 vagas, resultado
+            a ser divulgado nos dias 30 e 31 de março, garantindo aos
+            classificados bolsa de R$ 130 mensais para, no máximo, 20 horas
+            semanais de estágio.
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row text-start justify-center gap-10">
+        <p className="w-full md:w-96 md:h-96 md:mr-4 flex flex-col">
+          No roda-pé do cartaz, aparecem o site para inscrição (fapce.edu.br), o
+          selo do GPTW (que certifica a FAP como uma das melhores empresas para
+          trabalhar do Ceará), logo da FAP e selo da nota máxima dada pelo
+          Ministério da Educação. Ainda mais embaixo, no final do roda-pé, a
+          informação de que as vagas são destinadas a alunos dos cursos de
+          Sistemas de Informação e Análise e Desenvolvimento de Sistemas (ADS)
+          da FAP.
+        </p>
+        <div className="w-full md:w-96 md:h-48 flex flex-col gap-2">
+          <h3 className="text-blue-800 font-bold">NExTi Edital 2025.1</h3>
+          <p className="text-blue-800">
+            Seleção de colaboradores para o desenvolvimento das atividades do
+            NExTI.
+          </p>
+          <p className="text-blue-800">Edital Completo.</p>
+          <h3 className="text-yellow-500 font-bold">
+            Envie suas dúvidas para:
+          </h3>
+          <p className="text-blue-800">nexit@fapce.edu.br</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Edital;
