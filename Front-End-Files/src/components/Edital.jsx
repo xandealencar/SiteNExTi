@@ -29,7 +29,7 @@ function Edital() {
         </div>
       </div>
       <div className="flex flex-col md:flex-row text-start justify-center gap-10">
-        <p className="w-full md:w-96 md:h-96 md:mr-4 flex flex-col">
+        <p className="w-full md:w-96 md:mr-4 flex flex-col">
           No roda-pé do cartaz, aparecem o site para inscrição (fapce.edu.br), o
           selo do GPTW (que certifica a FAP como uma das melhores empresas para
           trabalhar do Ceará), logo da FAP e selo da nota máxima dada pelo

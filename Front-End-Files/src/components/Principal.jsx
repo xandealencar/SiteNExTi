@@ -73,11 +73,11 @@ function Principal() {
         </motion.div>
       )}
 
-      <div className="w-[500px] flex flex-col gap-2">
-        <h1 className="text-[40px] text-center font-bold text-white">
+      <div className="w-full max-w-[500px] px-4 flex flex-col gap-2">
+        <h1 className="text-3xl md:text-[40px] text-center font-bold text-white">
           Núcleo de Extensão em Tecnologia da Informação
         </h1>
-        <h2 className="text-[25px] text-yellow-500 text-center font-bold text-sm">
+        <h2 className="text-lg md:text-[25px] text-yellow-500 text-center font-bold">
           Transformando alunos em profissionais!
         </h2>
       </div>
