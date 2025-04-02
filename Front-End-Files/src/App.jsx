@@ -1,20 +1,12 @@
-import { useState } from "react";
-import { Linkedin, Youtube, Facebook, Instagram, Menu } from "lucide-react";
-import Sobre from "./components/Sobre";
-import Contato from "./components/Contato";
-import Time from "./components/Time";
-import Principal from "./components/Principal";
-import Edital from "./components/Edital";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="flex flex-col gap-10">
-      <Principal />
-      <Sobre />
-      <Edital />
-      <Time />
-      <Contato />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
