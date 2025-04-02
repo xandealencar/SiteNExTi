@@ -4,7 +4,7 @@ function Edital() {
       <h1 className="text-2xl text-blue-900 font-bold mb-4 text-center">
         Edital
       </h1>
-      <div className="flex flex-col md:flex-row items-center md:justify-center md:items-start gap-5">
+      <div className="flex flex-col-reverse md:flex-row items-center md:justify-center md:items-start gap-5">
         <img
           src="https://i.ibb.co/4ZWkH0GN/imagem-edital-nexti.png"
           alt="edital-img"
@@ -28,8 +28,8 @@ function Edital() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row text-start justify-center gap-10">
-        <p className="w-full md:w-96 md:mr-4 flex flex-col">
+      <div className="flex flex-col w-[450px] md:w-[1000px] md:flex-row text-start justify-center gap-10">
+        <p className="w-full md:w-96 md:mr-4">
           No roda-pé do cartaz, aparecem o site para inscrição (fapce.edu.br), o
           selo do GPTW (que certifica a FAP como uma das melhores empresas para
           trabalhar do Ceará), logo da FAP e selo da nota máxima dada pelo

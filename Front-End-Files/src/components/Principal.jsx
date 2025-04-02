@@ -15,21 +15,31 @@ function Principal() {
         />
 
         <div className="hidden md:flex gap-2">
-          <button className="text-xs font-bold text-blue-800 bg-white rounded-full w-16 h-10 flex justify-center items-center">
-            Portal
-          </button>
-          <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
-            <Linkedin />
-          </button>
-          <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
-            <Youtube />
-          </button>
-          <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
-            <Facebook />
-          </button>
-          <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
-            <Instagram />
-          </button>
+          <a href="#">
+            <button className="text-xs font-bold text-blue-800 bg-white rounded-full w-16 h-10 flex justify-center items-center">
+              Portal
+            </button>
+          </a>
+          <a href="#">
+            <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+              <Linkedin />
+            </button>
+          </a>
+          <a href="https://www.youtube.com/user/FaculdadeParaiso/">
+            <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+              <Youtube />
+            </button>
+          </a>
+          <a href="https://pt-br.facebook.com/faculdadeparaiso/">
+            <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+              <Facebook />
+            </button>
+          </a>
+          <a href="https://www.instagram.com/nextifap/">
+            <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+              <Instagram />
+            </button>
+          </a>
         </div>
 
         <button
@@ -53,27 +63,36 @@ function Principal() {
               className="text-white text-2xl w-10 h-10 flex items-center justify-center"
               onClick={() => setMenuAberto(false)}
             ></button>
-
-            <button className="text-blue-800 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center text-sm font-bold">
-              Portal
-            </button>
-            <button className="text-blue-800 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center">
-              <Linkedin />
-            </button>
-            <button className="text-blue-800 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center">
-              <Youtube />
-            </button>
-            <button className="text-blue-800 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center">
-              <Facebook />
-            </button>
-            <button className="text-blue-800 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center">
-              <Instagram />
-            </button>
+            <a href="#">
+              <button className="text-blue-800 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center text-sm font-bold">
+                Portal
+              </button>
+            </a>
+            <a href="#">
+              <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+                <Linkedin />
+              </button>
+            </a>
+            <a href="https://www.youtube.com/user/FaculdadeParaiso/">
+              <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+                <Youtube />
+              </button>
+            </a>
+            <a href="https://pt-br.facebook.com/faculdadeparaiso/">
+              <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+                <Facebook />
+              </button>
+            </a>
+            <a href="https://www.instagram.com/nextifap/">
+              <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+                <Instagram />
+              </button>
+            </a>
           </div>
         </motion.div>
       )}
 
-      <div className="w-full max-w-[500px] px-4 flex flex-col gap-2">
+      <div className="w-full max-w-[600px] px-4 flex flex-col gap-2">
         <h1 className="text-3xl md:text-[40px] text-center font-bold text-white">
           Núcleo de Extensão em Tecnologia da Informação
         </h1>
