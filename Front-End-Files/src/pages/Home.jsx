@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Linkedin, Youtube, Facebook, Instagram, Menu } from "lucide-react";
-import Sobre from "./components/Sobre";
-import Contato from "./components/Contato";
-import Time from "./components/Time";
-import Principal from "./components/Principal";
-import Edital from "./components/Edital";
+import Sobre from "../components/Sobre";
+import Contato from "../components/Contato";
+import Time from "../components/Time";
+import Principal from "../components/Principal";
+import Edital from "../components/Edital";
 
 function Home() {
   return (
