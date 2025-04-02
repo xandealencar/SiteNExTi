@@ -28,7 +28,7 @@ function Edital() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col w-[450px] md:w-[1000px] md:flex-row text-start justify-center gap-10">
+      <div className="flex flex-col max-w-full md:max-w-[1000px] md:flex-row text-start justify-center gap-10">
         <p className="w-full md:w-96 md:mr-4">
           No roda-pé do cartaz, aparecem o site para inscrição (fapce.edu.br), o
           selo do GPTW (que certifica a FAP como uma das melhores empresas para
