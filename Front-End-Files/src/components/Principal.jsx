@@ -9,7 +9,7 @@ function Principal() {
     <div className="bg-blue-800 h-[650px] flex flex-col items-center gap-36 pt-20">
       <div className="flex items-center justify-between w-full px-6 md:px-20">
         <img
-          src="https://i.ibb.co/8LnVxW82/NEXTI.png"
+          src="https://i.ibb.co/fVJR7jF5/NEXTI-logo.png"
           alt="nexti-logo"
           className="h-12"
         />

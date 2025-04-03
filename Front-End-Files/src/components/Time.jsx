@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 function Time() {
+  const navigate = useNavigate();
+
   return (
     <div className="flex flex-col items-center justify-center px-4 pb-8">
       <h1 className="text-2xl text-blue-900 font-bold mb-8 text-center">
@@ -34,7 +38,10 @@ function Time() {
           </div>
         </div>
         <div className="flex justify-center mt-12">
-          <button className="bg-[#FFB800] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e6a600] transition-colors">
+          <button
+            onClick={() => navigate("/time-completo")}
+            className="bg-[#FFB800] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e6a600] transition-colors"
+          >
             Ver Todos
           </button>
         </div>
