@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Contato from "./Contato";
+import Contato from "./Contato"; // Importando o componente Contato
+import { useNavigate } from "react-router-dom";
 
 const teamMembers = [
   {
@@ -25,11 +26,13 @@ function TimeCompleto() {
     setCurrentIndex((prev) => (prev - 1 + teamMembers.length) % teamMembers.length);
   };
 
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen">
       <div className="max-w-6xl mx-auto px-4">
         {/* Logo */}
-        <div className="flex justify-center mb-8">
+        <div className="flex justify-center mb-8 cursor-pointer" onClick={() => navigate("/")}>
           <img
             src="https://i.ibb.co/fVJR7jF5/NEXTI-logo.png"
             alt="NEXTI Logo"
@@ -37,6 +40,7 @@ function TimeCompleto() {
           />
         </div>
 
+        {/* Galeria de imagens */}
         <div className="flex items-center justify-center gap-4 relative">
           <div className="w-56 h-64 bg-[#FFB800] rounded-lg overflow-hidden opacity-50">
             <img
@@ -63,6 +67,7 @@ function TimeCompleto() {
           </div>
         </div>
 
+        {/* Nome e Cargo */}
         <div className="text-center mt-6">
           <h3 className="text-3xl text-[#006699] font-bold">
             {teamMembers[currentIndex].name}
@@ -73,6 +78,7 @@ function TimeCompleto() {
         </div>
       </div>
 
+      {/* Setas fixas no canto inferior direito */}
       <div className="flex justify-end w-full mt-6 pr-12 mb-12">
         <button
           onClick={prevMember}
