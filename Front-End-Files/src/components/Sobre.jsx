@@ -132,16 +132,18 @@ function Sobre() {
           />
         </div>
       </div>
-      <div className="text-center flex flex-col gap-5">
+      <div className="text-center flex flex-col gap-5 w-full max-w-[90%] mx-auto">
         <h3 className="text-yellow-500 font-bold pt-5">Nossos Parceiros:</h3>
-        <div className="flex gap-10">
+        <div className="flex flex-wrap justify-center items-center gap-5 w-full overflow-hidden">
           <img
             src="https://nexti.fapce.edu.br/img/logos/sitio_barreiras_logo.png"
             alt="sitio-barreiras-logo"
+            className="w-[40%] max-w-[120px] sm:max-w-[150px] object-contain"
           />
           <img
             src="https://nexti.fapce.edu.br/img/logos/brisanet.svg"
             alt="brisanet-logo"
+            className="w-[40%] max-w-[120px] sm:max-w-[150px] object-contain"
           />
         </div>
       </div>
