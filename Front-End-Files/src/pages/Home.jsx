@@ -5,12 +5,14 @@ import Contato from "../components/Contato";
 import Time from "../components/Time";
 import Principal from "../components/Principal";
 import Edital from "../components/Edital";
+import Projetos from "../components/Projetos";
 
 function Home() {
   return (
     <div className="flex flex-col gap-10">
       <Principal />
       <Sobre />
+      <Projetos />
       <Edital />
       <Time />
       <Contato />
