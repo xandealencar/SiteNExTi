@@ -38,51 +38,51 @@ function Sobre() {
         <h2 className="text-[#006A9B] font-bold">Valores do NEXTI:</h2>
         <ul className="list-disc pl-5 space-y-4">
           <li>
-            <h3 className="text-gray-700 font-bold">Aprendizado contínuo:</h3>
-            <p className="text-gray-700">
+            <h3 className="text-[#4A4A4A] font-bold">Aprendizado contínuo:</h3>
+            <p className="text-[#4A4A4A]">
               Valorizamos a busca constante pelo conhecimento e incentivamos
               nossos alunos a se manterem atualizados em um campo em constante
               evolução.
             </p>
           </li>
           <li>
-            <h3 className="font-bold text-gray-700">Inovação:</h3>
-            <p className="text-gray-700">
+            <h3 className="font-bold text-[#4A4A4A]">Inovação:</h3>
+            <p className="text-[#4A4A4A]">
               Encorajamos a criatividade e a busca por soluções inovadoras que
               possam fazer a diferença na sociedade e na indústria de TI.
             </p>
           </li>
           <li>
-            <h3 className="font-bold text-gray-700">
+            <h3 className="font-bold text-[#4A4A4A]">
               Ética e Responsabilidade:
             </h3>
-            <p className="text-gray-700">
+            <p className="text-[#4A4A4A]">
               Promovemos a integridade, a ética e a responsabilidade em todas as
               nossas ações, preparando nossos alunos para serem profissionais
               éticos e conscientes.
             </p>
           </li>
           <li>
-            <h3 className="font-bold text-gray-700">Trabalho em equipe:</h3>
-            <p className="text-gray-700">
+            <h3 className="font-bold text-[#4A4A4A]">Trabalho em equipe:</h3>
+            <p className="text-[#4A4A4A]">
               Reconhecemos a importância do trabalho em equipe e da colaboração,
               capacitando nossos alunos a serem membros eficazes de equipes
               multidisciplinares.
             </p>
           </li>
           <li>
-            <h3 className="font-bold text-gray-700">Empreendedorismo:</h3>
-            <p className="text-gray-700">
+            <h3 className="font-bold text-[#4A4A4A]">Empreendedorismo:</h3>
+            <p className="text-[#4A4A4A]">
               Incentivamos o empreendedorismo e a mentalidade empresarial,
               capacitando nossos alunos a identificar oportunidades e criar
               soluções de valor.
             </p>
           </li>
           <li>
-            <h3 className="font-bold text-gray-700">
+            <h3 className="font-bold text-[#4A4A4A]">
               Comunidade e Responsabilidade Social:
             </h3>
-            <p className="text-gray-700">
+            <p className="text-[#4A4A4A]">
               Contribuímos ativamente para a comunidade local, utilizando nossa
               expertise para resolver problemas e melhorar a qualidade de vida
               das pessoas.
@@ -133,7 +133,7 @@ function Sobre() {
         </div>
       </div>
       <div className="text-center flex flex-col gap-5 w-full max-w-[90%] mx-auto">
-        <h3 className="text-yellow-500 font-bold pt-5">Nossos Parceiros:</h3>
+        <h3 className="text-[#FFC500] font-bold pt-5">Nossos Parceiros:</h3>
         <div className="flex flex-wrap justify-center items-center gap-5 w-full overflow-hidden">
           <img
             src="https://nexti.fapce.edu.br/img/logos/sitio_barreiras_logo.png"

@@ -11,14 +11,14 @@ function Edital() {
           className="w-96 h-96"
         />
         <div className="max-w-md w-full md:ml-4 flex flex-col">
-          <p>
+          <p className="text-[#4A4A4A]">
             <span className="text-[#FFC500]">#PraCegoVer </span>Trata-se de um
             cartaz que anuncia a seleção de estágio para o Núcleo de Extensão em
             Tecnologia da Informação (NExTI). É composto de uma foto em que
             aparecem três alunos sentados num parque. Duas alunas estão nas
             pontas e seguram livros, o aluno do meio tem um notebook no colo.
           </p>
-          <p>
+          <p className="text-[#4A4A4A]">
             O recorte da foto não mostra o rosto dos estudantes. Mais embaixo,
             do lado esquerdo, num retângulo, está a informação de que as
             inscrições no NExTI vão de 6 a 20 de março, com 10 vagas, resultado
@@ -29,7 +29,7 @@ function Edital() {
         </div>
       </div>
       <div className="flex flex-col max-w-full md:max-w-[1000px] md:flex-row text-start justify-center gap-10">
-        <p className="w-full md:w-96 md:mr-4">
+        <p className="w-full md:w-96 md:mr-4 text-[#4A4A4A]">
           No roda-pé do cartaz, aparecem o site para inscrição (fapce.edu.br), o
           selo do GPTW (que certifica a FAP como uma das melhores empresas para
           trabalhar do Ceará), logo da FAP e selo da nota máxima dada pelo
