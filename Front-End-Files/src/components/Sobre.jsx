@@ -1,11 +1,11 @@
 function Sobre() {
   return (
     <div className="flex flex-col items-center justify-center px-4">
-      <h1 className="text-2xl text-blue-900 font-bold mb-4 text-center">
+      <h1 className="text-2xl text-[#006A9B] font-bold mb-4 text-center">
         Sobre
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-4xl">
-        <div className="rounded-lg bg-blue-900 text-white flex flex-col md:flex-row items-center md:items-stretch justify-center gap-5 w-full">
+        <div className="rounded-lg bg-[#006A9B] text-white flex flex-col md:flex-row items-center md:items-stretch justify-center gap-5 w-full">
           <img
             src="https://i.ibb.co/bRdK1n8D/image-estagio.png"
             alt="imagem-sobre"
@@ -14,7 +14,7 @@ function Sobre() {
 
           <div className="p-6 flex flex-col gap-5 w-full md:w-1/2 h-full">
             <div className="text-left">
-              <h3 className="text-yellow-500 font-bold">Missão:</h3>
+              <h3 className="text-[#FFC500] font-bold">Missão:</h3>
               <p className="text-sm mt-2">
                 Capacitar nossos estudantes para se tornarem profissionais
                 excepcionais em tecnologia da informação, prontos para enfrentar
@@ -22,7 +22,7 @@ function Sobre() {
               </p>
             </div>
             <div className="text-left">
-              <h3 className="text-yellow-500 font-bold">Visão:</h3>
+              <h3 className="text-[#FFC500] font-bold">Visão:</h3>
               <p className="text-sm mt-2">
                 Almejamos ser reconhecidos como líderes na formação de
                 profissionais em tecnologia da informação, tanto em nossa
@@ -35,7 +35,7 @@ function Sobre() {
         </div>
       </div>
       <div className="flex flex-col justify-center w-full max-w-4xl pt-8 gap-6">
-        <h2 className="text-blue-800 font-bold">Valores do NEXTI:</h2>
+        <h2 className="text-[#006A9B] font-bold">Valores do NEXTI:</h2>
         <ul className="list-disc pl-5 space-y-4">
           <li>
             <h3 className="text-gray-700 font-bold">Aprendizado contínuo:</h3>
@@ -91,10 +91,10 @@ function Sobre() {
         </ul>
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-4xl pt-8">
-        <div className="rounded-lg bg-blue-900 text-white flex flex-col md:flex-row items-center md:items-stretch justify-center gap-5 w-full">
+        <div className="rounded-lg bg-[#006A9B] text-white flex flex-col md:flex-row items-center md:items-stretch justify-center gap-5 w-full">
           <div className="p-6 flex flex-col gap-5 w-full md:w-1/2 h-full">
             <div className="text-left">
-              <h3 className="text-yellow-500 font-bold">
+              <h3 className="text-[#FFC500] font-bold">
                 Objetivos institucionais e acadêmicos
               </h3>
               <p className="text-sm mt-2">

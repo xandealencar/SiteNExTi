@@ -1,7 +1,7 @@
 function Edital() {
   return (
     <div className="flex flex-col items-center justify-center px-4 gap-10">
-      <h1 className="text-2xl text-blue-900 font-bold mb-4 text-center">
+      <h1 className="text-2xl text-[#006A9B] font-bold mb-4 text-center">
         Edital
       </h1>
       <div className="flex flex-col-reverse md:flex-row items-center md:justify-center md:items-start gap-5">
@@ -12,7 +12,7 @@ function Edital() {
         />
         <div className="max-w-md w-full md:ml-4 flex flex-col">
           <p>
-            <span className="text-yellow-500">#PraCegoVer </span>Trata-se de um
+            <span className="text-[#FFC500]">#PraCegoVer </span>Trata-se de um
             cartaz que anuncia a seleção de estágio para o Núcleo de Extensão em
             Tecnologia da Informação (NExTI). É composto de uma foto em que
             aparecem três alunos sentados num parque. Duas alunas estão nas
@@ -39,16 +39,16 @@ function Edital() {
           da FAP.
         </p>
         <div className="w-full md:w-96 md:h-48 flex flex-col gap-2">
-          <h3 className="text-blue-800 font-bold">NExTi Edital 2025.1</h3>
-          <p className="text-blue-800">
+          <h3 className="text-[#006A9B] font-bold">NExTi Edital 2025.1</h3>
+          <p className="text-[#006A9B]">
             Seleção de colaboradores para o desenvolvimento das atividades do
             NExTI.
           </p>
-          <p className="text-blue-800">Edital Completo.</p>
-          <h3 className="text-yellow-500 font-bold">
+          <p className="text-[#006A9B]">Edital Completo.</p>
+          <h3 className="text-[#FFC500] font-bold">
             Envie suas dúvidas para:
           </h3>
-          <p className="text-blue-800">nexit@fapce.edu.br</p>
+          <p className="text-[#006A9B]">nexit@fapce.edu.br</p>
         </div>
       </div>
     </div>

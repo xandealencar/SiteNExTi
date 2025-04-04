@@ -6,7 +6,7 @@ function Principal() {
   const [menuAberto, setMenuAberto] = useState(false);
 
   return (
-    <div className="bg-blue-800 h-[650px] flex flex-col items-center gap-36 pt-20">
+    <div className="bg-[#006A9B] h-[650px] flex flex-col items-center gap-36 pt-20">
       <div className="flex items-center justify-between w-full px-6 md:px-20">
         <img
           src="https://i.ibb.co/fVJR7jF5/NEXTI-logo.png"
@@ -16,27 +16,27 @@ function Principal() {
 
         <div className="hidden md:flex gap-2">
           <a href="#">
-            <button className="text-xs font-bold text-blue-800 bg-white rounded-full w-16 h-10 flex justify-center items-center">
+            <button className="text-xs font-bold text-[#006A9B] bg-white rounded-full w-16 h-10 flex justify-center items-center">
               Portal
             </button>
           </a>
           <a href="#">
-            <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+            <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
               <Linkedin />
             </button>
           </a>
           <a href="https://www.youtube.com/user/FaculdadeParaiso/">
-            <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+            <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
               <Youtube />
             </button>
           </a>
           <a href="https://pt-br.facebook.com/faculdadeparaiso/">
-            <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+            <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
               <Facebook />
             </button>
           </a>
           <a href="https://www.instagram.com/nextifap/">
-            <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+            <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
               <Instagram />
             </button>
           </a>
@@ -64,27 +64,27 @@ function Principal() {
               onClick={() => setMenuAberto(false)}
             ></button>
             <a href="#">
-              <button className="text-blue-800 bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center text-sm font-bold">
+              <button className="text-[#006A9B] bg-gray-200 rounded-full w-10 h-10 flex justify-center items-center text-sm font-bold">
                 Portal
               </button>
             </a>
             <a href="#">
-              <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+              <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
                 <Linkedin />
               </button>
             </a>
             <a href="https://www.youtube.com/user/FaculdadeParaiso/">
-              <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+              <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
                 <Youtube />
               </button>
             </a>
             <a href="https://pt-br.facebook.com/faculdadeparaiso/">
-              <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+              <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
                 <Facebook />
               </button>
             </a>
             <a href="https://www.instagram.com/nextifap/">
-              <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+              <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
                 <Instagram />
               </button>
             </a>
@@ -96,7 +96,7 @@ function Principal() {
         <h1 className="text-3xl md:text-[40px] text-center font-bold text-white">
           Núcleo de Extensão em Tecnologia da Informação
         </h1>
-        <h2 className="text-lg md:text-[25px] text-yellow-500 text-center font-bold">
+        <h2 className="text-lg md:text-[25px] text-[#FFC500] text-center font-bold">
           Transformando alunos em profissionais!
         </h2>
       </div>

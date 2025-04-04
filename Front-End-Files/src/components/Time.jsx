@@ -5,7 +5,7 @@ function Time() {
 
   return (
     <div className="flex flex-col items-center justify-center px-4 pb-8">
-      <h1 className="text-2xl text-blue-900 font-bold mb-8 text-center">
+      <h1 className="text-2xl text-[#006A9B] font-bold mb-8 text-center">
         Nosso Time
       </h1>
       <div className="w-full max-w-4xl">
@@ -18,7 +18,7 @@ function Time() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <h3 className="text-2xl text-blue-900 font-bold">
+            <h3 className="text-2xl text-[#006A9B] font-bold">
               Fabricio Carneiro
             </h3>
             <p className="text-[#FFB800] text-xl font-semibold">Coordenador</p>
@@ -31,7 +31,7 @@ function Time() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <h3 className="text-2xl text-blue-900 font-bold">
+            <h3 className="text-2xl text-[#006A9B] font-bold">
               Francisco Rodrigues
             </h3>
             <p className="text-[#FFB800] text-xl font-semibold">Professor</p>

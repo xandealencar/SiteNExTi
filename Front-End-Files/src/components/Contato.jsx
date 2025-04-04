@@ -3,13 +3,13 @@ import { Linkedin, Youtube, Facebook, Instagram, Menu } from "lucide-react";
 function Contato() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="w-full bg-blue-800 text-white py-8">
+      <div className="w-full bg-[#006A9B] text-white py-8">
         <div className="max-w-4xl mx-auto px-4">
           <h1 className="text-2xl text-white font-bold mb-8">Contato</h1>
           <div className="flex flex-col-reverse md:flex-row gap-8">
             <div className="flex-1 text-center">
               <div className="text-center md:text-left mb-6">
-                <div className="text-[#FFB800]">
+                <div className="text-[#FFC500]">
                   <p className="font-bold ">R. Santa Isabel - Nº 245</p>
                   <p>São Miguel</p>
                   <p>Juazeiro Do Norte - Ceará</p>
@@ -17,22 +17,22 @@ function Contato() {
               </div>
               <div className="flex justify-center md:justify-start gap-4 mb-6">
                 <a href="#">
-                  <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+                  <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
                     <Linkedin />
                   </button>
                 </a>
                 <a href="https://www.youtube.com/user/FaculdadeParaiso/">
-                  <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+                  <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
                     <Youtube />
                   </button>
                 </a>
                 <a href="https://pt-br.facebook.com/faculdadeparaiso/">
-                  <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+                  <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
                     <Facebook />
                   </button>
                 </a>
                 <a href="https://www.instagram.com/nextifap/">
-                  <button className="text-blue-800 bg-white rounded-full w-10 h-10 flex justify-center items-center">
+                  <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
                     <Instagram />
                   </button>
                 </a>
@@ -47,7 +47,7 @@ function Contato() {
                 © <span className="text-white">NExTI 2025 </span>
                 <a
                   href="https://nexti.unifap.edu.br"
-                  className="text-yellow-400 font-bold hover:underline"
+                  className="text-[#FFC500] font-bold hover:underline"
                 >
                   - nexti.unifap.edu.br
                 </a>
