@@ -5,7 +5,7 @@ function Projetos() {
         Projetos
       </h1>
       <div className="flex flex-col md:flex-row gap-5">
-        <div className="bg-blue-800 rounded-xl flex flex-col  items-center gap-10 w-[250px] p-4">
+        <div className="bg-blue-800 rounded-xl flex flex-col  items-center gap-10 w-[280px] p-4">
           <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
             <h2 className="text-white font-bold">Ponto Eletrônico</h2>
             <img
@@ -19,7 +19,7 @@ function Projetos() {
             </p>
           </div>
         </div>
-        <div className="bg-blue-800 rounded-xl flex flex-col items-center gap-10 w-[250px] p-4">
+        <div className="bg-blue-800 rounded-xl flex flex-col items-center gap-10 w-[280px] p-4">
           <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
             <h2 className="text-white font-bold">Plataforma de estágio</h2>
             <img
@@ -34,7 +34,7 @@ function Projetos() {
           </div>
         </div>
 
-        <div className="bg-blue-800 rounded-xl flex flex-col items-center gap-10 w-[250px] p-4">
+        <div className="bg-blue-800 rounded-xl flex flex-col items-center gap-10 w-[280px] p-4">
           <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
             <h2 className="text-white font-bold">Banco de Talentos</h2>
             <img
