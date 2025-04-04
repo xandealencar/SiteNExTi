@@ -10,8 +10,8 @@ function Time() {
       </h1>
       <div className="w-full max-w-4xl">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div className="flex flex-col items-center">
-            <div className="w-72 h-72 bg-[#FFB800] rounded-lg overflow-hidden mb-4">
+          <div className="flex flex-col items-center transform transition duration-300 hover:scale-105">
+            <div className="w-72 h-72 bg-[#FFB800] rounded-lg overflow-hidden mb-4 ">
               <img
                 src="/fabricio.jpg"
                 alt="Fabricio Carneiro"
@@ -23,7 +23,7 @@ function Time() {
             </h3>
             <p className="text-[#FFB800] text-xl font-semibold">Coordenador</p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center transform transition duration-300 hover:scale-105">
             <div className="w-72 h-72 bg-[#FFB800] rounded-lg overflow-hidden mb-4">
               <img
                 src="/francisco.jpg"
