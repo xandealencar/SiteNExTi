@@ -1,4 +1,11 @@
+import { useNavigate } from "react-router-dom";
+
 function Projetos() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/projetos");
+  };
   return (
     <div className="flex flex-col items-center justify-center gap-10 px-4">
       <h1 className="text-2xl text-[#006A9B] font-bold mb-4 text-center">
@@ -49,7 +56,7 @@ function Projetos() {
           </div>
         </div>
       </div>
-      <button className="bg-[#FFB800] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e6a600] transition-colors">
+      <button onClick={handleClick} className="bg-[#FFB800] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e6a600] transition-colors">
         Ver mais
       </button>
     </div>

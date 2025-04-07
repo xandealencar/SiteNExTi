@@ -1,6 +1,7 @@
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import TimeCompleto from "./components/TimeCompleto";
+import ProjetosPage from "./pages/ProjetosPage";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/time-completo" element={<TimeCompleto />} />
+        <Route path="/projetos" element={<ProjetosPage />} />
       </Routes>
     </Router>
   );
