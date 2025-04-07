@@ -16,7 +16,7 @@ function Contato() {
                 </div>
               </div>
               <div className="flex justify-center md:justify-start gap-4 mb-6">
-                <a href="#">
+                <a href="https://www.linkedin.com/school/unifapce/">
                   <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
                     <Linkedin />
                   </button>
