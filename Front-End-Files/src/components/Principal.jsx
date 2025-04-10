@@ -15,12 +15,12 @@ function Principal() {
         />
 
         <div className="hidden md:flex gap-2">
-          <a href="#">
+          <a href="https://unifapce.edu.br/">
             <button className="text-xs font-bold text-[#006A9B] bg-white rounded-full w-16 h-10 flex justify-center items-center">
               Portal
             </button>
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/school/unifapce/">
             <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
               <Linkedin />
             </button>
