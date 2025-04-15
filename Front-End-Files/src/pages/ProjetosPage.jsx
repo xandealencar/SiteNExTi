@@ -24,7 +24,7 @@ function ProjetosPage() {
           <div className="flex flex-col md:flex-row w[500px] gap-5 flex-wrap justify-center align-center">
             <div className="bg-[#006A9B] rounded-xl flex flex-col  items-center gap-10 w-[280px] p-4 transform transition duration-300 hover:scale-105">
               <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
-                <h2 className="text-white font-bold">Ponto Eletrônico</h2>
+                <h2 className="text-white font-bold text-center">Ponto Eletrônico</h2>
                 <img
                   src="https://i.ibb.co/Z1VSPrRM/Ponto.png"
                   alt="Ponto"
@@ -38,7 +38,7 @@ function ProjetosPage() {
             </div>
             <div className="bg-[#006A9B] rounded-xl flex flex-col items-center gap-10 w-[280px] p-4 transform transition duration-300 hover:scale-105">
               <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
-                <h2 className="text-white font-bold">Plataforma de estágio</h2>
+                <h2 className="text-white font-bold text-center">Plataforma de estágio</h2>
                 <img
                   src="https://i.ibb.co/JjjnbZr0/PEstagio.png"
                   alt="Ponto"
@@ -53,7 +53,7 @@ function ProjetosPage() {
 
             <div className="bg-[#006A9B] rounded-xl flex flex-col items-center gap-10 w-[280px] p-4 transform transition duration-300 hover:scale-105">
               <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
-                <h2 className="text-white font-bold">Banco de Talentos</h2>
+                <h2 className="text-white font-bold text-center">Banco de Talentos</h2>
                 <img
                   src="https://i.ibb.co/TDC9Gfwr/BancoT.png"
                   alt="Banco"
@@ -67,8 +67,8 @@ function ProjetosPage() {
             </div>
             <div className="bg-[#006A9B] rounded-xl flex flex-col  items-center gap-10 w-[280px] p-4 transform transition duration-300 hover:scale-105">
               <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
-                <h2 className="text-white font-bold">
-                  Acompanhamento de <br /> processos do NPJ
+                <h2 className="text-white font-bold text-center">
+                  Acompanhamento de processos do NPJ
                 </h2>
                 <img
                   src="https://i.ibb.co/VcwXgpfd/npj.jpg"
@@ -76,31 +76,27 @@ function ProjetosPage() {
                   className="w-[150px] h-auto"
                 />
                 <p className="w-[200px] text-center text-white text-sm">
-                  Um sistema que facilite o acompanhamento dos processos do NPJ,
-                  permitindo que o professor tenha maior controle e organização
-                  sobre os processos.
+                Sistema que facilita o acompanhamento dos processos do NPJ, oferecendo ao professor mais controle e organização sobre cada caso.
                 </p>
               </div>
             </div>
             <div className="bg-[#006A9B] rounded-xl flex flex-col items-center gap-10 w-[280px] p-4 transform transition duration-300 hover:scale-105">
               <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
-                <h2 className="text-white font-bold">Sistema de doação</h2>
+                <h2 className="text-white font-bold text-center">Sistema de doação</h2>
                 <img
                   src="https://i.ibb.co/wNXsYQ6j/doacao.jpg"
                   alt="doacao"
                   className="w-[150px] h-auto"
                 />
                 <p className="w-[200px] text-center text-white text-sm">
-                  Um sistema que permite que instituições filantrópicas possam
-                  cadastrar doadores, os doadores informam quanto querem doar e
-                  esse valor será cobrado nas respectivas contas de energia.
+                Sistema para instituições filantrópicas cadastrarem doadores e vincular doações à conta de energia.
                 </p>
               </div>
             </div>
 
             <div className="bg-[#006A9B] rounded-xl flex flex-col  items-center gap-10 w-[280px] p-4 transform transition duration-300 hover:scale-105">
               <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
-                <h2 className="text-white font-bold">Vocabulário web</h2>
+                <h2 className="text-white font-bold text-center">Vocabulário web</h2>
                 <img
                   src="https://i.ibb.co/G3nXCjsT/web.jpg"
                   alt="vocabulario"
@@ -114,17 +110,14 @@ function ProjetosPage() {
             </div>
             <div className="bg-[#006A9B] rounded-xl flex flex-col items-center gap-10 w-[280px] p-4 transform transition duration-300 hover:scale-105">
               <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
-                <h2 className="text-white font-bold">Gerador de declarações</h2>
+                <h2 className="text-white font-bold text-center">Gerador de declarações</h2>
                 <img
                   src="https://i.ibb.co/Y4wCXRTv/declara-o.jpg"
                   alt="declaracao"
                   className="w-[150px] h-auto"
                 />
                 <p className="w-[200px] text-center text-white text-sm">
-                  Um sistema capaz de gerar declarações, relatórios apenas
-                  alterando informações pertinentes, tais como nome do
-                  declarante, nome do aluno, data da declaração, atividade
-                  realizada, período.
+                Sistema que gera declarações e relatórios personalizados com base em informações como nome, data, atividade e período.
                 </p>
               </div>
             </div>
@@ -132,7 +125,7 @@ function ProjetosPage() {
             <div className="bg-[#006A9B] rounded-xl flex flex-col items-center gap-10 w-[280px] p-4 transform transition duration-300 hover:scale-105">
               <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
                 <h2 className="text-white font-bold">
-                  Sistema de controle de notas
+                Sistema do empreendedorismo
                 </h2>
                 <img
                   src="https://i.ibb.co/rfwKyMbF/notas.jpg"
@@ -140,9 +133,7 @@ function ProjetosPage() {
                   className="w-[150px] h-auto"
                 />
                 <p className="w-[200px] text-center text-white text-sm">
-                  Um sistema que permite ao administrador gerenciar informações
-                  sobre empreendedorismo, tais como artigos, imagens,
-                  entrevistas e similares.
+                Sistema para o administrador gerenciar conteúdos sobre empreendedorismo, como artigos, imagens e entrevistas.
                 </p>
               </div>
             </div>
@@ -180,7 +171,7 @@ function ProjetosPage() {
 
             <div className="bg-[#006A9B] rounded-xl flex flex-col  items-center gap-10 w-[280px] p-4 transform transition duration-300 hover:scale-105">
               <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
-                <h2 className="text-white font-bold">Sediar Maratona Programação IPC</h2>
+                <h2 className="text-white font-bold">Sediar Maratona de Programação</h2>
                 <img
                   src="https://i.ibb.co/ccXfKfXr/ipc.jpg"
                   alt="IPC"
@@ -191,63 +182,21 @@ function ProjetosPage() {
                 </p>
               </div>
             </div>
-            <div className="bg-[#006A9B] rounded-xl flex flex-col items-center gap-10 w-[280px] p-4 transform transition duration-300 hover:scale-105">
+
+            <div className="bg-[#006A9B] rounded-xl flex flex-col  items-center gap-10 w-[280px] p-4 transform transition duration-300 hover:scale-105">
               <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
-                <h2 className="text-white font-bold">Plataforma de estágio</h2>
+                <h2 className="text-white font-bold">App Eventos</h2>
                 <img
-                  src="https://i.ibb.co/JjjnbZr0/PEstagio.png"
-                  alt="Ponto"
+                  src="https://i.ibb.co/dSjTz0p/imagem-2025-04-15-153002436.png"
+                  alt="AppEventos"
                   className="w-[150px] h-auto"
                 />
                 <p className="w-[200px] text-center text-white text-sm">
-                  A Plataforma de estágio consiste em ajudar pessoas a começar
-                  no mercado de trabalho.
+                Uma plataforma simples que ajuda a organizar eventos do NExTI, permitindo que os participantes colaborem indicando o que vão levar.
                 </p>
               </div>
             </div>
 
-            <div className="bg-[#006A9B] rounded-xl flex flex-col items-center gap-10 w-[280px] p-4 transform transition duration-300 hover:scale-105">
-              <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
-                <h2 className="text-white font-bold">Banco de Talentos</h2>
-                <img
-                  src="https://i.ibb.co/TDC9Gfwr/BancoT.png"
-                  alt="Banco"
-                  className="w-[150px] h-auto"
-                />
-                <p className="w-[200px] text-center text-white text-sm">
-                  O banco de talentos consiste em ajudar pessoas a aprimorar
-                  seus pontos fortes ou mesmo a descobri-los.
-                </p>
-              </div>
-            </div>
-            <div className="bg-[#006A9B] rounded-xl flex flex-col  items-center gap-10 w-[280px] p-4 transform transition duration-300 hover:scale-105">
-              <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
-                <h2 className="text-white font-bold">Ponto Eletrônico</h2>
-                <img
-                  src="https://i.ibb.co/Z1VSPrRM/Ponto.png"
-                  alt="Ponto"
-                  className="w-[150px] h-auto"
-                />
-                <p className="w-[200px] text-center text-white text-sm">
-                  O Ponto Eletrônico consiste em um ambiente virtual em que os
-                  alunos possam registrar seu ponto de entrada e saída.
-                </p>
-              </div>
-            </div>
-            <div className="bg-[#006A9B] rounded-xl flex flex-col items-center gap-10 w-[280px] p-4 transform transition duration-300 hover:scale-105">
-              <div className="items-center flex flex-col justify-between w-[300px] h-[300px] p-4">
-                <h2 className="text-white font-bold">Plataforma de estágio</h2>
-                <img
-                  src="https://i.ibb.co/JjjnbZr0/PEstagio.png"
-                  alt="Ponto"
-                  className="w-[150px] h-auto"
-                />
-                <p className="w-[200px] text-center text-white text-sm">
-                  A Plataforma de estágio consiste em ajudar pessoas a começar
-                  no mercado de trabalho.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Contato from "./Contato"; // Importando o componente Contato
+import Contato from "./Contato"; 
 import { useNavigate } from "react-router-dom";
 
 const teamMembers = [
@@ -31,7 +31,7 @@ function TimeCompleto() {
   return (
     <div className="min-h-screen">
       <div className="max-w-6xl mx-auto px-4">
-        {/* Logo */}
+        
         <div className="flex justify-center mb-8 cursor-pointer" onClick={() => navigate("/")}>
           <img
             src="https://i.ibb.co/fVJR7jF5/NEXTI-logo.png"
@@ -40,8 +40,8 @@ function TimeCompleto() {
           />
         </div>
 
-        {/* Galeria de imagens */}
-        <div className="flex items-center justify-center gap-4 relative">
+        
+        <div className="flex items-center justify-center gap-4  pt-14">
           <div className="w-56 h-64 bg-[#FFB800] rounded-lg overflow-hidden opacity-50">
             <img
               src={teamMembers[(currentIndex - 1 + teamMembers.length) % teamMembers.length].image}
@@ -67,7 +67,7 @@ function TimeCompleto() {
           </div>
         </div>
 
-        {/* Nome e Cargo */}
+        
         <div className="text-center mt-6">
           <h3 className="text-3xl text-[#006699] font-bold">
             {teamMembers[currentIndex].name}
@@ -78,7 +78,7 @@ function TimeCompleto() {
         </div>
       </div>
 
-      {/* Setas fixas no canto inferior direito */}
+      
       <div className="flex justify-end w-full mt-6 pr-12 mb-12">
         <button
           onClick={prevMember}
@@ -95,7 +95,7 @@ function TimeCompleto() {
       </div>
 
 
-      {/* Adicionando a seção de contato no final */}
+      
       <Contato />
     </div>
   );
