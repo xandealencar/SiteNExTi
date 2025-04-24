@@ -16,26 +16,26 @@ function Contato() {
                 </div>
               </div>
               <div className="flex justify-center md:justify-start gap-4 mb-6">
-                <a href="https://www.linkedin.com/school/unifapce/">
-                  <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
-                    <Linkedin />
-                  </button>
-                </a>
-                <a href="https://www.youtube.com/user/FaculdadeParaiso/">
-                  <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
-                    <Youtube />
-                  </button>
-                </a>
-                <a href="https://pt-br.facebook.com/faculdadeparaiso/">
-                  <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
-                    <Facebook />
-                  </button>
-                </a>
-                <a href="https://www.instagram.com/nextifap/">
-                  <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
-                    <Instagram />
-                  </button>
-                </a>
+              <a href="https://www.linkedin.com/school/unifapce/">
+            <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
+              <Linkedin />
+            </button>
+          </a>
+          <a href="https://www.youtube.com/user/FaculdadeParaiso/">
+            <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
+              <Youtube />
+            </button>
+          </a>
+          <a href="https://www.facebook.com/unifapce">
+            <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
+              <Facebook />
+            </button>
+          </a>
+          <a href="https://www.instagram.com/nextiunifap/">
+            <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
+              <Instagram />
+            </button>
+          </a>
               </div>
               <img
                 src="https://i.ibb.co/B2qhrNfv/logo-unifap.png"

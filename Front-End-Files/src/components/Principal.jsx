@@ -30,12 +30,12 @@ function Principal() {
               <Youtube />
             </button>
           </a>
-          <a href="https://pt-br.facebook.com/faculdadeparaiso/">
+          <a href="https://www.facebook.com/unifapce">
             <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
               <Facebook />
             </button>
           </a>
-          <a href="https://www.instagram.com/nextifap/">
+          <a href="https://www.instagram.com/nextiunifap/">
             <button className="text-[#006A9B] bg-white rounded-full w-10 h-10 flex justify-center items-center">
               <Instagram />
             </button>
