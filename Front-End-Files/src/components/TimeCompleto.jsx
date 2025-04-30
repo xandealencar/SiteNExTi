@@ -6,13 +6,19 @@ const teamMembers = [
   {
     name: "Fabrício Carneiro",
     role: "Coordenador",
-    image: "/fabricio.jpg",
+    image: "https://i.ibb.co/b5WYvbyc/fabricio.png",
   },
   {
     name: "Francisco Rodrigues",
     role: "Professor",
-    image: "/francisco.jpg",
+    image: "https://i.ibb.co/PsvT2mz1/francisco.png",
   },
+  {
+    name: "Pedro Alexandre",
+    role: "Aluno",
+    image: "https://i.ibb.co/QFjmRrWM/pedro.png",
+  },
+  
 ];
 
 function TimeCompleto() {
@@ -42,27 +48,27 @@ function TimeCompleto() {
 
         
         <div className="flex items-center justify-center gap-4  pt-14">
-          <div className="w-56 h-64 bg-[#FFB800] rounded-lg overflow-hidden opacity-50">
+          <div className="w-56 h-64 bg-[#FFB800] rounded-lg overflow-hidden opacity-50 flex items-end justify-center">
             <img
               src={teamMembers[(currentIndex - 1 + teamMembers.length) % teamMembers.length].image}
               alt="Membro anterior"
-              className="w-full h-full object-cover"
+              className="w-auto h-[250px]"
             />
           </div>
 
-          <div className="w-64 h-72 bg-[#FFB800] rounded-lg overflow-hidden">
+          <div className="w-64 h-72 bg-[#FFB800] rounded-lg overflow-hidden flex items-end justify-center">
             <img
               src={teamMembers[currentIndex].image}
               alt={teamMembers[currentIndex].name}
-              className="w-full h-full object-cover"
+              className="w-auto h-[250px]"
             />
           </div>
 
-          <div className="w-56 h-64 bg-[#FFB800] rounded-lg overflow-hidden opacity-50">
+          <div className="w-56 h-64 bg-[#FFB800] rounded-lg overflow-hidden opacity-50 flex items-end justify-center">
             <img
               src={teamMembers[(currentIndex + 1) % teamMembers.length].image}
               alt="Próximo membro"
-              className="w-full h-full object-cover"
+              className="w-auto h-[250px]"
             />
           </div>
         </div>

@@ -11,11 +11,11 @@ function Time() {
       <div className="w-full max-w-4xl">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="flex flex-col items-center transform transition duration-300 hover:scale-105">
-            <div className="w-72 h-72 bg-[#FFB800] rounded-lg overflow-hidden mb-4 ">
+            <div className="w-72 h-72 bg-[#FFB800] rounded-lg overflow-hidden mb-4 flex items-end justify-center">
               <img
-                src="/fabricio.jpg"
+                src="https://i.ibb.co/b5WYvbyc/fabricio.png"
                 alt="Fabricio Carneiro"
-                className="w-full h-full object-cover"
+                className="w-auto h-[250px]"  
               />
             </div>
             <h3 className="text-2xl text-[#006A9B] font-bold">
@@ -26,7 +26,7 @@ function Time() {
           <div className="flex flex-col items-center transform transition duration-300 hover:scale-105">
             <div className="w-72 h-72 bg-[#FFB800] rounded-lg overflow-hidden mb-4">
               <img
-                src="/francisco.jpg"
+                src="https://i.ibb.co/PsvT2mz1/francisco.png"
                 alt="Francisco Rodrigues"
                 className="w-full h-full object-cover"
               />
