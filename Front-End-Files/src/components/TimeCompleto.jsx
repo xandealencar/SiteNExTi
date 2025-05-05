@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Contato from "./Contato"; 
+import Contato from "./Contato";
 import { useNavigate } from "react-router-dom";
 
 const teamMembers = [
@@ -13,12 +13,6 @@ const teamMembers = [
     role: "Professor",
     image: "https://i.ibb.co/PsvT2mz1/francisco.png",
   },
-  {
-    name: "Pedro Alexandre",
-    role: "Aluno",
-    image: "https://i.ibb.co/QFjmRrWM/pedro.png",
-  },
-  
 ];
 
 function TimeCompleto() {
@@ -29,7 +23,9 @@ function TimeCompleto() {
   };
 
   const prevMember = () => {
-    setCurrentIndex((prev) => (prev - 1 + teamMembers.length) % teamMembers.length);
+    setCurrentIndex(
+      (prev) => (prev - 1 + teamMembers.length) % teamMembers.length
+    );
   };
 
   const navigate = useNavigate();
@@ -37,8 +33,10 @@ function TimeCompleto() {
   return (
     <div className="min-h-screen">
       <div className="max-w-6xl mx-auto px-4">
-        
-        <div className="flex justify-center mb-8 cursor-pointer" onClick={() => navigate("/")}>
+        <div
+          className="flex justify-center mb-8 cursor-pointer"
+          onClick={() => navigate("/")}
+        >
           <img
             src="https://i.ibb.co/fVJR7jF5/NEXTI-logo.png"
             alt="NEXTI Logo"
@@ -46,11 +44,14 @@ function TimeCompleto() {
           />
         </div>
 
-        
         <div className="flex items-center justify-center gap-4  pt-14">
           <div className="w-56 h-64 bg-[#FFB800] rounded-lg overflow-hidden opacity-50 flex items-end justify-center">
             <img
-              src={teamMembers[(currentIndex - 1 + teamMembers.length) % teamMembers.length].image}
+              src={
+                teamMembers[
+                  (currentIndex - 1 + teamMembers.length) % teamMembers.length
+                ].image
+              }
               alt="Membro anterior"
               className="w-auto h-[250px]"
             />
@@ -73,7 +74,6 @@ function TimeCompleto() {
           </div>
         </div>
 
-        
         <div className="text-center mt-6">
           <h3 className="text-3xl text-[#006699] font-bold">
             {teamMembers[currentIndex].name}
@@ -84,7 +84,6 @@ function TimeCompleto() {
         </div>
       </div>
 
-      
       <div className="flex justify-end w-full mt-6 pr-12 mb-12">
         <button
           onClick={prevMember}
@@ -100,8 +99,6 @@ function TimeCompleto() {
         </button>
       </div>
 
-
-      
       <Contato />
     </div>
   );
