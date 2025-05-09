@@ -6,6 +6,7 @@ import Time from "../components/Time";
 import Principal from "../components/Principal";
 import Edital from "../components/Edital";
 import Projetos from "../components/Projetos";
+import Eventos from "../components/Eventos";
 
 function Home() {
   return (
@@ -13,7 +14,7 @@ function Home() {
       <Principal />
       <Sobre />
       <Projetos />
-      <Edital />
+      <Eventos />
       <Time />
       <Contato />
     </div>
