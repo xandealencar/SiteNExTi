@@ -1,6 +1,9 @@
+import ScrollToTop from "../components/Ajustetela";
+
 function AccelerationStartups() {
   return (
     <div className="p-4 md:p-8 space-y-12 flex flex-col items-center justify-center">
+      <ScrollToTop />
       <div className="flex justify-center items-center">
         <img
           src="https://i.ibb.co/fVJR7jF5/NEXTI-logo.png"
@@ -16,12 +19,13 @@ function AccelerationStartups() {
           Participe do programa de aceleração gratuito da NExTI e leve sua
           startup do zero ao mercado.
         </p>
-        <button
-          onClick={"/"}
-          className="bg-[#006A9B] rounded pt-1 pb-1 pl-5 pr-5 text-white font-semibold text-lg hover:bg-[#004769] transition-colors"
-        >
-          Inscreva sua Startup
-        </button>
+        <div>
+          <a href="https://forms.gle/dYeX13477QWZWzFM8">
+            <button className="bg-[#006A9B] rounded pt-1 pb-1 pl-5 pr-5 text-white font-semibold text-lg hover:bg-[#004769] transition-colors">
+              Inscreva sua Startup
+            </button>
+          </a>
+        </div>
       </section>
 
       <section className="max-w-3xl mx-auto px-4 space-y-4">
@@ -35,7 +39,7 @@ function AccelerationStartups() {
           conexões estratégicas e estrutura completa para validar, desenvolver e
           escalar sua startup.
         </p>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+        <div className="grid grid-cols md:grid-cols-4 gap-4 mt-6">
           <div className="border border-[#006A9B] rounded flex items-center justify-center">
             🎓 Meio acadêmico
           </div>
@@ -65,7 +69,7 @@ function AccelerationStartups() {
       </section>
 
       <section className="max-w-3xl mx-auto px-4">
-        <h2 className="text-3xl font-semibold">
+        <h2 className="text-3xl font-semibold flex justify-center">
           A jornada da sua startup em 4 meses
         </h2>
 
@@ -115,7 +119,7 @@ function AccelerationStartups() {
         </div>
       </section>
 
-      <section className="flex gap-10">
+      <section className="flex flex-col md:flex-row gap-10">
         <div className="space-y-4">
           <h2 className="text-3xl font-semibold flex justify-center">
             Por que participar?
@@ -151,12 +155,13 @@ function AccelerationStartups() {
           Transforme sua ideia em realidade com apoio de especialistas e acesso
           ao ecossistema de inovação.
         </p>
-        <button
-          onClick={"/"}
-          className="bg-[#006A9B] rounded pt-1 pb-1 pl-5 pr-5 text-white font-semibold text-lg hover:bg-[#004769] transition-colors"
-        >
-          Quero me inscrever
-        </button>
+        <div>
+          <a href="https://forms.gle/dYeX13477QWZWzFM8">
+            <button className="bg-[#006A9B] rounded pt-1 pb-1 pl-5 pr-5 text-white font-semibold text-lg hover:bg-[#004769] transition-colors">
+              Quero me inscrever
+            </button>
+          </a>
+        </div>
       </section>
     </div>
   );

@@ -1,11 +1,11 @@
 import { useNavigate } from "react-router-dom";
 
 function Eventos() {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const handleClick = () => {
-      navigate("/AccelerationStartups");
-    };
+  const handleClick = () => {
+    navigate("/AccelerationStartups");
+  };
   return (
     <div className="flex flex-col items-center justify-center px-4 gap-10">
       <h1 className="text-2xl text-[#006A9B] font-bold mb-4 text-center">
@@ -83,19 +83,21 @@ function Eventos() {
               sua startup para o próximo nível.
             </p>
             <div className="flex flex-col justify-center md:flex md:flex-row gap-10  mt-12">
-          <button
-            onClick={() => navigate("/")}
-            className="bg-[#FFB800] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e6a600] transition-colors"
-          >
-            Inscrever-se
-          </button>
-          <button
-            onClick={handleClick}
-            className="bg-[#FFB800] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e6a600] transition-colors"
-          >
-            Saiba mais
-          </button>
-        </div>
+              <a href="https://forms.gle/dYeX13477QWZWzFM8">
+                <button
+                  
+                  className="bg-[#FFB800] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e6a600] transition-colors"
+                >
+                  Inscrever-se
+                </button>
+              </a>
+              <button
+                onClick={handleClick}
+                className="bg-[#FFB800] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e6a600] transition-colors"
+              >
+                Saiba mais
+              </button>
+            </div>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Contato from "./Contato";
 import { useNavigate } from "react-router-dom";
+import ScrollToTop from "./Ajustetela";
 
 const teamMembers = [
   {
@@ -31,7 +32,9 @@ function TimeCompleto() {
   const navigate = useNavigate();
 
   return (
+    
     <div className="min-h-screen">
+      <ScrollToTop />
       <div className="max-w-6xl mx-auto px-4">
         <div
           className="flex justify-center mb-8 cursor-pointer"

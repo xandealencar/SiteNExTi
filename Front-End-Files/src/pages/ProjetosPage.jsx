@@ -1,10 +1,12 @@
 import Contato from "../components/Contato";
 import { useNavigate } from "react-router-dom";
+import ScrollToTop from "../components/Ajustetela";
 
 function ProjetosPage() {
   const navigate = useNavigate();
   return (
     <div>
+      <ScrollToTop />
       <div className="flex flex-col items-center justify-center gap-4 pb-10">
         <div
           className="flex justify-center cursor-pointer"
