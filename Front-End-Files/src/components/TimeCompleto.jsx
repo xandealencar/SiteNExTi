@@ -2,17 +2,104 @@ import { useState } from "react";
 import Contato from "./Contato";
 import { useNavigate } from "react-router-dom";
 import ScrollToTop from "./Ajustetela";
+import fabricio from "../img/fabricio.JPEG";
+import francisco from "../img/francisco.JPEG";
+import pedro from "../img/pedro.JPEG";
+import beatriz from "../img/beatriz.JPEG";
+import brenda from "../img/brenda.JPEG";
+import caio from "../img/caio.JPEG";
+import gabriel from "../img/gabriel.JPEG";
+import ian from "../img/ian.JPEG";
+import icaro from "../img/icaro.JPEG";
+import igor from "../img/igor.JPEG";
+import leonardo from "../img/leonardo.JPEG";
+import lucas from "../img/lucas.JPEG";
+import sergio from "../img/sergio.JPEG";
+import luiz from "../img/luiz.JPEG";
+import raissa from "../img/raissa.JPEG";
+import thiago from "../img/thiago.JPEG";
 
+ 
 const teamMembers = [
   {
     name: "Fabrício Carneiro",
     role: "Coordenador",
-    image: "https://i.ibb.co/b5WYvbyc/fabricio.png",
+    image: fabricio,
   },
   {
     name: "Francisco Rodrigues",
     role: "Professor",
-    image: "https://i.ibb.co/PsvT2mz1/francisco.png",
+    image: francisco,
+  },
+  {
+    name: "Beatriz Rolim",
+    role: "Aluno",
+    image: beatriz,
+  },
+  {
+    name: "Brenda Evelyn",
+    role: "Aluno",
+    image: brenda,
+  },
+  {
+    name: "Caio Tarso",
+    role: "Aluno",
+    image: caio,
+  },
+  {
+    name: "Gabriel Lucas",
+    role: "Aluno",
+    image: gabriel,
+  },
+  {
+    name: "Ian Caleb",
+    role: "Aluno",
+    image: ian,
+  },
+  {
+    name: "Ícaro Moreira",
+    role: "Aluno",
+    image: icaro,
+  },
+  {
+    name: "Igor Nunes",
+    role: "Aluno",
+    image: igor,
+  },
+  {
+    name: "Leonardo Morais",
+    role: "Aluno",
+    image: leonardo,
+  },
+  {
+    name: "Luis Sanches",
+    role: "Aluno",
+    image: luiz,
+  },
+  {
+    name: "Pedro Alexandre",
+    role: "Aluno",
+    image: pedro,
+  },
+  {
+    name: "Raissa Zacarias",
+    role: "Aluno",
+    image: raissa,
+  },
+  {
+    name: "Sergio Lucas",
+    role: "Aluno",
+    image: sergio,
+  },
+  {
+    name: "Thiago Tavares",
+    role: "Aluno",
+    image: thiago,
+  },
+  {
+    name: "Thiago Borges",
+    role: "Aluno",
+    image: lucas,
   },
 ];
 
@@ -48,7 +135,7 @@ function TimeCompleto() {
         </div>
 
         <div className="flex items-center justify-center gap-4  pt-14">
-          <div className="w-56 h-64 bg-[#FFB800] rounded-lg overflow-hidden opacity-50 flex items-end justify-center">
+          <div className="w-56 h-64 rounded-lg overflow-hidden opacity-50 flex items-end justify-center">
             <img
               src={
                 teamMembers[
@@ -56,23 +143,23 @@ function TimeCompleto() {
                 ].image
               }
               alt="Membro anterior"
-              className="w-auto h-[250px]"
+              className="w-full h-full object-cover"
             />
           </div>
 
-          <div className="w-64 h-72 bg-[#FFB800] rounded-lg overflow-hidden flex items-end justify-center">
+          <div className="w-64 h-72 rounded-lg overflow-hidden flex items-end justify-center">
             <img
               src={teamMembers[currentIndex].image}
               alt={teamMembers[currentIndex].name}
-              className="w-auto h-[250px]"
+              className="w-full h-full object-cover"
             />
           </div>
 
-          <div className="w-56 h-64 bg-[#FFB800] rounded-lg overflow-hidden opacity-50 flex items-end justify-center">
+          <div className="w-56 h-64  rounded-lg overflow-hidden opacity-50 flex items-end justify-center">
             <img
               src={teamMembers[(currentIndex + 1) % teamMembers.length].image}
               alt="Próximo membro"
-              className="w-auto h-[250px]"
+              className="w-full h-full object-cover"
             />
           </div>
         </div>
