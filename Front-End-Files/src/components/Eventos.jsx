@@ -67,7 +67,7 @@ function Eventos() {
           <img
             src={postNExTIAcce}
             alt="NExTIAccelerationStartups-img"
-            className="w-96 h-96"
+            className="w-[350px] h-[400px]"
           />
           <div className="max-w-md w-full md:ml-4 flex flex-col md:h-96 justify-center">
             <h3 className="text-[#FFC500] font-bold">
