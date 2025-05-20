@@ -1,3 +1,6 @@
+import nexti from "../img/nexti.JPEG";
+import nextialunos from "../img/nextialunos.JPEG";
+
 function Sobre() {
   return (
     <div className="flex flex-col items-center justify-center px-4">
@@ -7,9 +10,9 @@ function Sobre() {
       <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-4xl">
         <div className="rounded-lg border-[2px] border-[#006A9B]  text-white flex flex-col md:flex-row items-center md:items-stretch justify-center gap-5 w-full">
           <img
-            src="https://i.ibb.co/bRdK1n8D/image-estagio.png"
+            src={nextialunos}
             alt="imagem-sobre"
-            className="w-full md:w-1/2 object-cover rounded-lg"
+            className="w-full md:w-1/2 object-cover rounded-md"
           />
 
           <div className="p-6 flex flex-col gap-5 w-full md:w-1/2 h-full">
@@ -126,9 +129,9 @@ function Sobre() {
             </div>
           </div>
           <img
-            src="https://i.ibb.co/bRdK1n8D/image-estagio.png"
+            src={nexti}
             alt="imagem-sobre"
-            className="w-full md:w-1/2 object-cover rounded-lg"
+            className="w-full md:w-1/2 object-cover rounded-md"
           />
         </div>
       </div>
