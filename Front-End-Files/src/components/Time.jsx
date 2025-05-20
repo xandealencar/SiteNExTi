@@ -1,4 +1,6 @@
 import { useNavigate } from "react-router-dom";
+import fabricio from "../img/fabricio.JPEG";
+import francisco from "../img/francisco.JPEG";
 
 function Time() {
   const navigate = useNavigate();
@@ -13,9 +15,9 @@ function Time() {
           <div className="flex flex-col items-center transform transition duration-300 hover:scale-105">
             <div className="w-72 h-72 bg-[#FFB800] rounded-lg overflow-hidden mb-4 flex items-end justify-center">
               <img
-                src="https://i.ibb.co/b5WYvbyc/fabricio.png"
+                src={fabricio}
                 alt="Fabricio Carneiro"
-                className="w-auto h-[250px]"  
+                className="w-full h-full object-cover"  
               />
             </div>
             <h3 className="text-2xl text-[#006A9B] font-bold">
@@ -26,7 +28,7 @@ function Time() {
           <div className="flex flex-col items-center transform transition duration-300 hover:scale-105">
             <div className="w-72 h-72 bg-[#FFB800] rounded-lg overflow-hidden mb-4">
               <img
-                src="https://i.ibb.co/PsvT2mz1/francisco.png"
+                src={francisco}
                 alt="Francisco Rodrigues"
                 className="w-full h-full object-cover"
               />
