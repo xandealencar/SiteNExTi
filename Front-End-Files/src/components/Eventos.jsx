@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import postNExTIAcce from "../img/postNExTIAcce.png";
 
 function Eventos() {
   const navigate = useNavigate();
@@ -64,8 +65,8 @@ function Eventos() {
       <div className="flex flex-col gap-10">
         <div className="flex flex-col-reverse md:flex-row items-center md:justify-center md:items-start gap-5">
           <img
-            src="https://i.ibb.co/4ZWkH0GN/imagem-edital-nexti.png"
-            alt="edital-img"
+            src={postNExTIAcce}
+            alt="NExTIAccelerationStartups-img"
             className="w-96 h-96"
           />
           <div className="max-w-md w-full md:ml-4 flex flex-col md:h-96 justify-center">
@@ -82,14 +83,12 @@ function Eventos() {
               apresentar suas soluções. Conecte-se, desenvolva sua ideia e leve
               sua startup para o próximo nível.
             </p>
-            <div className="flex flex-col justify-center md:flex md:flex-row gap-10  mt-12">
-              <a href="https://forms.gle/dYeX13477QWZWzFM8">
-                <button
-                  
-                  className="bg-[#FFB800] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e6a600] transition-colors"
-                >
-                  Inscrever-se
-                </button>
+            <div className="flex flex-col justify-center items-center md:flex md:flex-row gap-10  mt-12">
+              <a
+                href="https://forms.gle/dYeX13477QWZWzFM8"
+                className="bg-[#FFB800] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e6a600] transition-colors"
+              >
+                Inscrever-se
               </a>
               <button
                 onClick={handleClick}
